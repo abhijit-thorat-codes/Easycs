@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll3"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:fillViewport="false"
+    android:background="@drawable/bg12">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.horizon.abhijit.simphycs.Impo6"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-- Important Questions --"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:id="@+id/textViewa"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="1)	Explain stimulated emission.\n\n 2)	Explain: \n\n          a.Optical pumping\n\n          d.Population inversion\n\n          b.Metastable state\n\n          e.Pumping\n\n          c.Active system\n\n 3)	What are the special properties of LASER? \n\n 4)	Explain construction and working of Ruby LASER and energy level diagram of it. \n\n 5)	With the help of neat diagram explain the construction of Ruby LASER and also comment on whether Ruby LASER is pulse LASER or not? \n\n 6)	Explain the construction and working of He-Ne LASER. Explain its energy level diagram also. \n\n 7)	With the help of energy band diagram explain the construction and working of semiconductor LASER. \n\n 8)	State application of LASER. \n\n 9)	Draw a block diagram of fiber optics communication system and explain use of any four components of the system. \n\n 10)	Explain any one application of LASER in brief. \n\n 11)	Write note on holography. \n\n  "
+            android:id="@+id/textView8"
+            android:textColor="#000000"
+            android:typeface="sans"
+            android:layout_below="@+id/textViewa"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll19"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="#ffffff">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.horizon.abhijit.easycs1.Diffraction">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView80"
+        android:text="2.Diffraction"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView23"
+        android:layout_below="@+id/textView80"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bar"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="      “It is a bending of light due to presence of an obstacle in the path of light.”\n       A diffraction pattern results from the interference of waves arising from the same source but differed by an obstacle of a size comparable to wavelength of light.\n        Diffraction of light produces change in colours.\nOnly monochromatic light source gives diffraction pattern. "
+        android:id="@+id/textView79"
+        android:layout_alignTop="@+id/imageView23"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#006699" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView24"
+        android:background="@drawable/diffraction1"
+        android:layout_below="@+id/textView79"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Here λ&lt;&lt;d, [bending is not possible] "
+        android:id="@+id/textView81"
+        android:layout_below="@+id/textView79"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="125dp"
+        android:layout_toRightOf="@+id/imageView24"
+        android:layout_toEndOf="@+id/imageView24"
+        android:layout_marginLeft="10dp"
+        android:textColor="#006699" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView25"
+        android:background="@drawable/diffraction2"
+        android:layout_below="@+id/textView82"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Here λ&lt;&lt;d, [bending is not possible]\n      a) bending takes place to a greater extent.\n      b) produce diffraction pattern
+ "
+        android:id="@+id/textView82"
+        android:layout_below="@+id/imageView24"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#006699" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Type :\n1.Fraunhoffer DIffraction"
+        android:id="@+id/textView83"
+        android:layout_below="@+id/imageView25"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="        It is a far field diffraction.\n
+        The source and screen are at infinite distance from obstacle.\n
+        A pair of convex lenses are used. Incident wave front is parallel.\n
+        Maxima and minima are well defined.\n
+        Mathematical treatment is simple."
+        android:id="@+id/textView84"
+        android:layout_below="@+id/textView83"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:textColor="#006699" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView84"
+        android:background="@drawable/fraunhoffer1"
+        android:id="@+id/imageView26"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="2. Fresnel Diffraction"
+        android:id="@+id/textView85"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/imageView26"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="        It is a near field diffraction.\n
+        The screen and source are at finite distance from obstacle.\n
+        Lenses are not required.\n
+        Incident wavefront is spherical or cylindrical.\n
+        Maxima and minima are not well defined.\n
+        Mathematical treatment is complicated."
+        android:id="@+id/textView86"
+        android:layout_below="@+id/textView85"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:textColor="#006699" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView86"
+        android:background="@drawable/fresnel1"
+        android:id="@+id/imageView27"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Fraunhoffer diffraction at a single slit (geometrical method) :"
+        android:id="@+id/textView87"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/imageView27"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView87"
+        android:background="@drawable/singleslit"
+        android:id="@+id/imageView28"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="s: monochromatic source of light.\n
+L1 and L2: two convex lens\n
+AB: slit width=a\n"
+        android:layout_below="@+id/imageView28"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView88"
+        android:textColor="#006699" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Mathematical or Analytical treatment :\nA) Calculation of path difference :"
+        android:id="@+id/textView89"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView88"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Path diff.(∆) = asinθ\n
+        Phase diff. (φ) = 2π/λ × path difference\n
+                     φ = 2π/λ × asinθ"
+        android:layout_below="@+id/textView89"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView90"
+        android:textColor="#006699" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="B) Calculation amplitude :"
+        android:id="@+id/textView91"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView90"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eθ = Em (sinα/α)"
+        android:id="@+id/textView92"
+        android:layout_below="@+id/textView91"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="#006699" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="C) Calculation of resultant intensity :"
+        android:id="@+id/textView93"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView92"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="As Intensity = (amplitude)^2\n
+        Intensity(Iθ) =Im.(sinα/α)²"
+        android:id="@+id/textView94"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView93"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:textColor="#006699" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Condition for maxima &amp; minima :\n1.Principle maxima :"
+        android:id="@+id/textView95"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView94"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eθ = Em (sinα/α)\n
+        For Eθ to be maximum, θ should be 0°. This is due to undiffracted light."
+        android:id="@+id/textView96"
+        android:gravity="center"
+        android:layout_below="@+id/textView95"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:textColor="#006699" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="2.Minimum Intensity :"
+        android:id="@+id/textView97"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView96"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The intensity will be minimum if sinθ will be 0°.\n
+        sin(0°) = sin(± mπ)-> α = ± mπ\n
+        But, this is condition for maximum intensity,\n
+        hence α = ∅/2\n
+              ∅ = 2π/λ (asinθ)\n
+              Asinθ = ± mλ\n"
+        android:id="@+id/textView98"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView97"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:textColor="#006699" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="3.Secondary maxima :"
+        android:id="@+id/textView100"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView98"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="As the secondary maxima lies on eigther sides of the principle maxima;\n
+            α = ±(m ± 1/2)π\n
+        So, intensity of secondary maxima decreases rapidly."
+        android:id="@+id/textView99"
+        android:layout_below="@+id/textView100"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:textColor="#006699" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Intensity distribution pattern :"
+        android:id="@+id/textView101"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView99"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView29"
+        android:layout_below="@+id/textView101"
+        android:background="@drawable/pattern"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conclusion :\n
+        1.	Thus diffraction pattern consist of a bright central maxima surrounded alternatively by minima of 0 intensity and feeble secondary maxima of rapidly decreasing intensities.\n
+        2.  When the slit is narrowed by reducing slit width, central maxima becomes wider."
+        android:id="@+id/textView102"
+        android:layout_below="@+id/imageView29"
+        android:layout_marginTop="10dp"
+        android:textColor="#006699" />
+</RelativeLayout>
+</ScrollView>

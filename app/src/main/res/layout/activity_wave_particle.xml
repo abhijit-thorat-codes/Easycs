@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.horizon.abhijit.easycs1.Ultrasonics">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="8.Wave Particle Duality"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bar"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Wave particle duality :-"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          Our earlier knowledge on the Planck s theory of thermal radiation ; Einstein explanation of photoelectric effect; Compton effect; emission and absorption of radiation by substance; black body radiation etc., undoubtedly established that the electromagnetic radiation consists of discrete invisible packets of energy (ho) is known as photons which manifest particle character of radiation. \n\n          On the other hand, macroscopic optical phenomena like interference, diffraction and polarization reveals the wave character of electromagnetic radiation. \n\n          Hence we concluded that the electromagnetic radiation has dual characters in certain situation it exhibits wave properties and in other it acts like a particle.  "
+            android:id="@+id/textView173"
+            android:textColor="#006699"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="De Broglie’s Hypothesis :-\n Statement :-"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView174"
+            android:layout_below="@+id/textView173"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          According to De-Broglie’s concept, a moving particle always has a wave associated with it and the motion of the particle is guided by that wave in a similar manner as photon is controlled by a wave.\n\nFor a photon,\n                    v = E/h and λ=h/p.\nwhere,\n                    v = frequency,\n                    λ = wavelength,\n                    h = Planck’s constant,\n                    p = momentum of particle "
+            android:id="@+id/textView175"
+            android:textColor="#006699"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView174"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Mathematical expression :"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView176"
+            android:layout_below="@+id/textView175"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="                    λ = h / mv = h / p "
+            android:id="@+id/textView177"
+            android:textColor="#006699"
+            android:layout_below="@+id/textView176"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="De Broglie wavelength in terms of K.E :-"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView178"
+            android:layout_below="@+id/textView177"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="                    λ = h / √2mE"
+            android:id="@+id/textView179"
+            android:textColor="#006699"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView178"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Dissimilarities between Matter wave &amp; Electromagnetic wave :-"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView180"
+            android:layout_below="@+id/textView179"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          1.	Matter waves are produced whether the particle is charged or uncharged one.\n          But electromagnetic waves are produced due to motion of charged particles only.\n\n          2.	Velocity of matter wave is always greater than the speed of light, whereas velocity of electromagnetic waves is equal to speed of light.\n\n          3.	Both the waves are capable of propagation in an absolute vacuum. So, they are not mechanical waves as mechanical waves can not travel in vaccum. "
+            android:id="@+id/textView181"
+            android:textColor="#006699"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView180"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Phase velocity :-"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView182"
+            android:layout_below="@+id/textView181"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          The phase velocity of a monochromatic wave is the velocity with which a definite phase of the wave propagates in the medium.\nExpression :\n                    Vp = h / 2mλ  "
+            android:id="@+id/textView183"
+            android:textColor="#006699"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView182"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Group velocity :-"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView184"
+            android:layout_below="@+id/textView183"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          A wave  group can be described bunch of individual waves of slightly different wavelength, whose interference with one another results in variation in amplitude that defines the group shape.\n          The velocity with which such a wave group travels is called the group velocity vg.  "
+            android:id="@+id/textView185"
+            android:textColor="#006699"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView184"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Dissimilarities in Phase velocity &amp; Group velocity :-"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView186"
+            android:layout_below="@+id/textView185"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          1.The average velocity individual monochromatic wave with which a wave packet is constructed is called as phase velocity.\n          The velocity with which a wave packet moves forward is called as group velocity.\n\n          2.Expression for phase velocity:\n                    Vp = w / k\nExpression for group velocity:\n                    Vg = dw / dk\n          3.Vp is always greater than the speed of light.\n          While, Vg is always equal to particle velocity and less than velocity of light. "
+            android:id="@+id/textView187"
+            android:textColor="#006699"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView186"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Heisenberg’s uncertainty principle :-"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView188"
+            android:layout_below="@+id/textView187"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          In classical physics, the dynamical variables a particle position can be measured accurately at any instant.\n          But such measurements cannot be performed beyond a certain limit in quantum mechanics.\n          According to the principles of wave mechanics a moving material particle is associated with a wave which describes all about the particle.\n          A particle is always localized in space and hence a wave packet or wave group  represents the moving particle.\n          The particle lies somewhere in the wave packet and the probability of finding the particle at a given point is proportional to the wave amplitude at that point.\n          Thus although the particle is somewhere within the wave packet moving with the group velocity, it is impossible to determine the exact position and exact velocity at any given moment.\n          There is always an uncertainty in the experimental measurement of position and momentum of a particle of very small size, like an. electron, in motion.\n
+          This is Heisenberg’s uncertainty principle.
+ "
+            android:id="@+id/textView189"
+            android:textColor="#006699"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView188"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Mathematical expression for uncertainty principle:"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView190"
+            android:layout_below="@+id/textView189"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="                    ∆x.∆px ≥ ћ ,  \n                    Ћ = h / 2π "
+            android:id="@+id/textView191"
+            android:textColor="#006699"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView190"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Single slit experiment :-"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView192"
+            android:layout_below="@+id/textView191"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView30"
+            android:layout_below="@+id/textView192"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/slit"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentStart="false" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.horizon.abhijit.simphycs.Impo" android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="6.Lasers"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView15"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bar"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          The word LASER is an acronym for Light Amplification by stimulated emission of Radiation.\n          It is a process by which one get a strong intense, monochromatic, collimated, unidirectional and highly coherent beam of light."
+            android:id="@+id/textView139"
+            android:layout_below="@+id/imageView15"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spontaneous Emission :-"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:id="@+id/textView140"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView139"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          After the life-time of the state, the atom in the excited state, gets de-excited itself and transition is allowed, falls on own accord spontaneously from level E2 to level E1 and emits a photon of energy\n         hv = E2-E1. \n          This is called spontaneous emission. "
+            android:id="@+id/textView141"
+            android:layout_below="@+id/textView140"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stimulated Emission :-"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:id="@+id/textView142"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView141"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          When the atom is in excited level E2 then the external photon incident with  the same energy stimulates this atom to the lower energy level. \n          During this transition atom emits a photon with the same energy as the energy of incident photon.\n          This type of emission is called as stimulated emission. \n          Stimulated emission is coherent with the stimulating incident radiation. \n          It has same direction, same phase and same frequency as the incident radiation. "
+            android:id="@+id/textView143"
+            android:layout_below="@+id/textView142"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Characteristics :-"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:id="@+id/textView144"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView143"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          1. The emitted photon is identical in all respects to the incident photon. \n          2. Both the photons travel in the same direction &apos;and are in the same stated polarization. \n          3.The process can be controlled from outside. \n          4.An important feature of stimulated emission is that the number of photons goes all multiplying rapidly. "
+            android:id="@+id/textView145"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView144"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metastable State :-"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:id="@+id/textView146"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView145"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          Life-time of the excited hydrogen atom is of the order of 10^-8 second.\n          However some of the excited states have life-time greater than this i.e. in order of 10^-3 seconds, such states are known as Metastable states."
+            android:id="@+id/textView147"
+            android:layout_below="@+id/textView146"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Population Inversion :- "
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:id="@+id/textView148"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView147"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          The number of atoms per unit volume occupying a certain energy state is called Population. \n          For a high percentage of stimulated emission, a majority of atoms should be at higher energy level than that of lower energy level.\n          For this, an artificial situation is created known as population inversion.  "
+            android:id="@+id/textView149"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView148"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pumping :-"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:id="@+id/textView150"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView149"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          The process by which atoms are raised from the lower energy level E1 to the higher energy level E2 is called as pumping. \n\nTypes of pumping : \n                    A. Optical pumping\n                    B. Electrical pumping"
+            android:id="@+id/textView151"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView150"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. Optical Pumping :-"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:id="@+id/textView152"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView151"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          In optical pumping, photons are used to excite the atoms in the medium. For this purpose, a discharge tube is used to excite atoms in ground state, similar to a light source in the laser medium. \n          The excited atom from the uppermost level goes to metastable state to create a state of Population inversion.  "
+            android:id="@+id/textView153"
+            android:layout_below="@+id/textView152"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B. Electrical pumping:"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:id="@+id/textView154"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView153"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          This method is limited for gases. The gas is ionized by a pulse of high voltage of electricity. \n          The current flowing through the gas excites the atoms to the uppermost level. \n          From this level, the atoms jump to metastable state, creating a state of population inversion. "
+            android:id="@+id/textView155"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView154"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Various level Laser systems :- "
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:id="@+id/textView156"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView155"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          1.	Two level laser system (Ex. Semiconductor laser system). \n          2.	Three level laser system (Ex. Ruby laser). \n          3.	Four level laser system (Ex. He – Ne laser).\n "
+            android:id="@+id/textView157"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView156"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Properties of lasers :- "
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:id="@+id/textView158"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView157"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          A.	Coherence\n          B.	Monochromaticity \n          C.	Strong unidirectionality \n          D.	Extreme brightness. \n          E.	High density of laser beam \n          F.	Narrow bandwidth  "
+            android:id="@+id/textView159"
+            android:layout_below="@+id/textView158"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textView157"
+            android:layout_alignEnd="@+id/textView157"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="A.	Coherence : \n          Laser beam is perfectly coherent in nature. The emitted photon after getting triggered is exactly in phase with the incident photon. \n\nB.	Monochromaticity : \n          The laser light is almost perfectly monochromatic. \n\nC.	Extreme brightness: \n          Laser light is much more brighter and intense than that from any of the conventional source. This is due to emitted and incident photons are perfectly in phase.  "
+            android:id="@+id/textView160"
+            android:layout_below="@+id/textView159"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The solid state Ruby laser: \n Principle :  "
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:id="@+id/textView161"
+            android:gravity="left|center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView160"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          1.	Ruby rod is surrounded by the helical Xenon photo flash lamp which provides the optical pumping to raise the chromium atoms to higher energy level. \n          2.	Much heat is given off by the flash lamp and absorbed by the ruby. \n          3.	Out of large energy produced due to flash lamp only small part of energy is used by chromium atom to get excited towards the higher energy level while the rest is converted into the heat. \n          4.	Hence to reduce the thermal vibrations in the atoms, the ruby rod is immersed in a reservoir containing a liquid nitrogen. "
+            android:id="@+id/textView162"
+            android:layout_below="@+id/textView161"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Significance of Pulse Laser :- "
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:id="@+id/textView163"
+            android:gravity="left|center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView162"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          1.	As the flash lamp stops operating, the population of the upper level decreases very rapidly and lasing action stops till the further operation of next flash. \n          2.	As the production of laser beam totally depends upon the operation of flash so, the ruby laser is pulsed type of laser. \n          3.	During the period of operation of two flash laser output is oscillating and highly irregular function of time.\n "
+            android:id="@+id/textView164"
+            android:layout_below="@+id/textView163"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="He - Ne Laser :- "
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:id="@+id/textView165"
+            android:gravity="left|center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView164"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          1.	It is the first gas laser which was operated successfully. \n          2.	He - Ne gas laser consists of a fused quartz tube which is 10 to 100 cm in length and 2 to 8 mm in the diameter. \n          3.	The tube is filled with the mixture of He and Ne gas. He is filled under the pressure of 1 mm of mercury and Ne is filled under the pressure of 0.1 mm of Mercury. \n          4.	Hence there is majority of He atom (85%) and minority of Ne atoms (15%).\n          5.	One end of the tube is closed by fully reflecting end plate while the other end has partially reflecting end plate. \n          6.	This gas laser is the commonly used low power laser, hence no cooling arrangements are required. \n          7.	Gas lasers are inexpensive, most stable and are continuous type of lasers. "
+            android:id="@+id/textView166"
+            android:layout_below="@+id/textView165"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Semiconductor laser(Solid state laser) :-\nPrinciple - "
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:id="@+id/textView167"
+            android:gravity="left|center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView166"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          1.	The band structure of an intrinsic semiconductor consists of a valence band and a conduction band separated by an energy gap Eg. \n          2.	In the normal conditions the valence band at lower energy Ev contains a large number of electrons and a few numbers of holes; while the conduction band at higher energy Ec has a few numbers of electrons. \n          3.	If a transition of electron occurs from C.B to V.B so that the electron recombines with the hole in V.B. This electron hole recombination is the basic mechanism involved in the emission of radiation. \n          4.	For the material Gallium Arsenide (GaAs) or Cadmium Selenide (CdSe) the energy released is in the optical region. \n          5.	Hence they are the suitable materials for fabrication of lasers."
+            android:id="@+id/textView168"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView167"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Applications of Laser :- "
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:id="@+id/textView169"
+            android:gravity="left|center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView168"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          A.	Engineering Application \n                    1.	 Laser Welding \n                    2.	Laser drilling\n                    3.	Micromachining\n                    4.	Surveying &amp; ranging\n          B.	Biological and Medical Applications\n                    1.	Blockage of coronary artery\n                    2.	Reconstructive surgery\n                    3.	Eye surgery\n          C.	Fiber Optics  "
+            android:id="@+id/textView170"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView169"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignRight="@+id/textView168"
+            android:layout_alignEnd="@+id/textView168"
+            android:textColor="#006699" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holography :-"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:id="@+id/textView171"
+            android:gravity="left|center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView170"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          1.	Holography is a technique for obtaining three dimensional optical image of the object. \n          2.	This is based on the phenomenon of the interference of light. \n          3.	In holography both the amplitude and the phase of wave is recorded. \n          4.	These amplitude and phase are stored in the interference pattern which is formed between the object wave and the reference wave. \n          5.	Interfering waves must be coherent. \n          6.	A light from the laser source splits in two beams. One beam will directly go to the object and then towards the photographic plate, while the other beam will go to the photographic plate after getting reflected from the mirror. \n          7.	At the photographic plate a beam reaching from the object is known as object beam or object wave where as the beam reflecting from the mirror and further reaching to the photographic plate is known as reference beam or reference wave. \n          8.	At the point of photographic plate, interference takes place between the object wave and the reference wave. \n          9.	After developing the photographic plate the plate is known as hologram. \n   "
+            android:id="@+id/textView172"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView171"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hologrphy Recording :"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:id="@+id/textView269"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView172"
+            android:layout_alignRight="@+id/textView172"
+            android:layout_alignEnd="@+id/textView172" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:id="@+id/imageView35"
+            android:background="@drawable/holograph1"
+            android:layout_below="@+id/textView269"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hologrphy Reconstruction :"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:id="@+id/textView270"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_below="@+id/imageView35"
+            android:layout_toEndOf="@+id/textView165"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView36"
+            android:background="@drawable/holograph2"
+            android:layout_below="@+id/textView270"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+
+    </RelativeLayout>
+</ScrollView>

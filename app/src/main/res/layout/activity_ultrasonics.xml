@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.horizon.abhijit.easycs1.Ultrasonics">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="4.Ultrasonics"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:typeface="serif"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bar"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="There are mainly 2 important methods of generating ultrasonic sounds -:\n                     1. Magnetostriction effect.\n                     2.Peizoelectric effect.\n"
+        android:id="@+id/textView1"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#006699" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Magnetostriction Effect : -"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          “If rod of ferromagnetic material is kept in a magnetic field parallel to its length, the rod suffers a change in length.”\n          1. The change in length is independent of the direction of magnetic field but depends on magnitude of field and nature of material. \n          2. When rod is kept in an alternating magnetic field of frequency f, then rod changes in length once in half lifecycle. It results in setting up vibrations in the rod whose frequency is twice the magnetic field. \n          3. Generally the amplitude of vibrations is small. \n          4. If frequency of vibrations lies in ultrasonic range,\nthen –\n                               f=P/2l √(Y/ρ)\n Where,\n          l = length of the rod; \n          Y = Young’s modulus; \n          ρ = density of the rod; \n "
+        android:id="@+id/textView4"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Magnetostriction oscillator: \n Principle:  "
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView19"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          “A rod of ferromagnetic material placed in a coil carrying high frequency alternating current starts vibrating along its length.”\n "
+        android:id="@+id/textView110"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/m_oscillator"
+        android:background="@drawable/magnetostriction_oscillator"
+        android:layout_below="@+id/textView110"
+        android:layout_alignRight="@+id/textView110"
+        android:layout_alignEnd="@+id/textView110"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Piezoelectric effect : "
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView111"
+        android:layout_below="@+id/m_oscillator"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p_effect"
+        android:background="@drawable/piezo_effect"
+        android:layout_below="@+id/textView111"
+        android:layout_alignRight="@+id/textView110"
+        android:layout_alignEnd="@+id/textView110"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          “In this effect, if one pair of opposite faces of a crystal is subjected to a pressure, then equal and opposite charge are developed on the other pair of opposite faces of the crystal.” \n          1. Mechanical pressure and resultant charge are directly proportional. \n          2. The polarity of charges gets reversed when the faces are subjected to tension instead of pressure. \n          3. The converse of piezoelectric effect –\n          “If a potential difference is applied across 2 faces od crystal, a change in the dimension of crystal is observed in a direction perpendicular to these faces.”\n          4.If the frequency of applied A.C voltage is adjusted to be one of the modes of the vibrations of the crystals, resonance occurs.\n          5. The crystal vibrates with maximum amplitude.\n          6. Frequency of thickness of vibrations,\n                               ft =P/2l √(Y/ρ)\n          7. Frequency of length of vibrations, \n                               Fl=P/2l √(Y/ρ)\n "
+        android:id="@+id/textView112"
+        android:textColor="#006699"
+        android:layout_below="@+id/p_effect"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Piezoelectric oscillator :\nPrinciple:-  "
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView113"
+        android:layout_below="@+id/textView112"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p_oscillator"
+        android:background="@drawable/piezo_oscillator"
+        android:layout_below="@+id/textView113"
+        android:layout_alignRight="@+id/textView110"
+        android:layout_alignEnd="@+id/textView110"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          “When certain crystal like quartz, Rachelle salt, tourmaline are stretched or compressed along certain axes, an electric P.D is produced along the perpendicular axis.”\n"
+        android:id="@+id/textView114"
+        android:textColor="#006699"
+        android:layout_below="@+id/p_oscillator"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Properties of ultrasonic waves : "
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView115"
+        android:layout_below="@+id/textView114"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          1.	Propagation speed increases with increase in frequency. \n          2.	Travels longer distance without loss of energy. \n          3.	Very small wavelength leads negligible diffraction. \n          4.	Highly energetic waves. \n          5.	Produces cavitation effect in liquids. \n "
+        android:id="@+id/textView116"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView115"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Applications of ultrasonic waves : "
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView117"
+        android:layout_below="@+id/textView116"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          1.	Scientific applications\n          2.	Engineering applications\n          3.	Chemical &amp; medical applications\n          4.	Ultrasonic welding\n          5.	Coagulation\n          6.	Rate of reactions\n          7.	Cancer treatment. \n "
+        android:id="@+id/textView118"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView117"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView117"
+        android:layout_alignEnd="@+id/textView117"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Important applications are explained below : \n A. Echo sounding: "
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView119"
+        android:layout_below="@+id/textView118"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          1.	These waves can be focused into a narrow beam which can travel many kilometers in water before being absorbed. Hence used for direction signaling. \n          2.	The signal is sent from transmitter and at some instant indication is given on a CRO screen by deflection of a spot. \n          3.	The beam travels to the obstacle and gets reflected back. By noting position of spot when the beam returns, the time interval between 2 deflections can be found. \n          4.	Knowing this time and velocity of sound waves, the position of obstacle can be located. \n          5.	This technique is known as echo sounding. \n "
+        android:id="@+id/textView120"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView119"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView119"
+        android:layout_alignEnd="@+id/textView119"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="B. Cavitation :"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView121"
+        android:layout_below="@+id/textView120"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          1. When an ultrasonic transducer is placed in a liquid it produces ultrasonic vibrations in liquid. \n          2. This results in development and implosion of bubbles. These are known as cavitation bubbles. \nEffects of bubbles- \n          a. They produce dense cloud in front of transducer and hinder the propagation of ultrasonic waves. \n          b. The surface of the transducer gets destroyed due to the formation of pits. \n "
+        android:id="@+id/textView122"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView121"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="C. Flaw detection : "
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView123"
+        android:layout_below="@+id/textView122"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          1.	Flaw detection using ultrasonic waves is cheaper, reliable and convenient than x-ray and gamma ray. \n          2.	Pulse generator produces the radio frequency pulses which are reflected back from the flaws and opposite side of the material. \n          3.	The time elapsed is measure on CRO. If it is less than time taken for standard sample, the material is treated as defective. \n "
+        android:id="@+id/textView124"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView123"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>
+</ScrollView>

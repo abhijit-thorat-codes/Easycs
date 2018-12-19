@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+    <ImageView
+        android:layout_width="275dp"
+        android:layout_height="350dp"
+        android:background="@drawable/shield"
+        android:id="@+id/logo"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tag1"
+        android:id="@+id/tag"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/logo"
+        android:layout_toEndOf="@+id/logo"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Info. :\n          Product :	Easycs©TechHorizon\n          Version :	0.A\n\nAdditional Info. :\n          1.This is an application for availing a quick &amp; easy guide for the subject.\n          2.The app will provide only the important and main topics.\n          3.The contents in the application are just for referential study. "
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/logo"
+        android:layout_toEndOf="@+id/logo"
+        android:layout_below="@+id/tag"
+        android:id="@+id/textView109" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Mr. Abhijit D. Thorat"
+        android:id="@+id/textView108"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:typeface="monospace"
+        android:layout_below="@+id/textView109"
+        android:layout_alignRight="@+id/tag"
+        android:layout_alignEnd="@+id/tag"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

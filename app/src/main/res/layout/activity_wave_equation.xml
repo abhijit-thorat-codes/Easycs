@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll19"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="#ffffff">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.horizon.abhijit.easycs1.Wave_equation">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView209"
+        android:text="9.Wave Eqaution"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView31"
+        android:background="@drawable/bar"
+        android:layout_below="@+id/textView209"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Wave Equation :-"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView210"
+        android:layout_below="@+id/textView209"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          The wave variable associated with the matter wave is called as wave function ψ, and is represented mathematically the motion of the particle.\n          The value of ψ depends on x, y, z and t.\n                              ψ  = f ( x, y, z, t)\n          The value of the wave function associated with a moving body at a particular point x, y, z in space at time t is related to the likelihood of finding the body there at that time.\n\n          | ψ^2 | represents the probability of finding a particle described by the wave function ψ at a particular time t, at a particular Point (x, y, z) contained in the volume.\n          A large value of | ψ^2 | means a strong probability of finding the particle, and a small value of | ψ^2 |means a little probability of its existence. "
+        android:id="@+id/textView211"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView210"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Conditions For Wave Function ψ :-"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView212"
+        android:layout_below="@+id/textView211"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          1.	It should be a normalized wave function.\n          2.	It should be a single valued function of space and time.\n          3.	It must be finite. \n          4.	Ψ and its derivatives must be continuous everywhere in the region where it is defined. "
+        android:id="@+id/textView213"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView212"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Schrodinger’s Wave Equation :-"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView214"
+        android:layout_below="@+id/textView213"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          Starting with De Broglie’s idea of matter wave, Schrodinger in 1926 developed it into a mathematical theory known as wave mechanics."
+        android:id="@+id/textView215"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView214"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="A.	Schrodinger’s Time Independent Wave Equation :-"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView216"
+        android:layout_below="@+id/textView215"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="                              ∇^2 φ + 2m / ћ^2 . (E-V)  φ = 0"
+        android:id="@+id/textView217"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView216"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="B. Schrodinger’s Time Dependent Wave Equation :- "
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView218"
+        android:layout_below="@+id/textView217"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="                              - ћ^2 / 2m  . ∇^2 φ + Vφ = i ћ  ∂φ / ∂t"
+        android:id="@+id/textView219"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView218"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+
+</RelativeLayout>
+</ScrollView>

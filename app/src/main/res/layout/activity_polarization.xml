@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.horizon.abhijit.easycs1.Polarization">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="5.Polarization"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:typeface="serif"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView15"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bar"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Definitions :"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:layout_below="@+id/imageView15"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          “The light which exhibits the property of one side-ness is known as polarized light.” \n\n In other words :- \n          “The phenomenon of asymmetry of vibrations about the direction of Propagation is known as polarization of light.” \n \n          The plane polarized light is the light in which the light vector vibrates along a fixed straight line in a  plane perpendicular to the direction of propagation of light.\n \n          ”In general, ordinary light beam having vibrations along all possible planes  perpendicular to the direction of propagation is said to be unpolarized \n\n "
+        android:id="@+id/textView125"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Plane Polarized Light :"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView126"
+        android:layout_below="@+id/textView125"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          The light having vibrations only along a single direction perpendicular to the direction of propagation of light is called plane polarized light. "
+        android:id="@+id/textView127"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView126"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Plane of Polarization :"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView128"
+        android:layout_below="@+id/textView127"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          The plane containing the direction of propagation of light but containing no vibrations is known as plane of polarization. "
+        android:id="@+id/textView129"
+        android:textColor="#006699"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView128"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Plane of Vibration :"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView130"
+        android:layout_below="@+id/textView129"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          The plane containing the direction of Vibration and direction of propagation of light is known as the plane of vibration."
+        android:id="@+id/textView131"
+        android:textColor="#006699"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView130"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Methods of Producing Plane Polarized Light :"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView132"
+        android:layout_below="@+id/textView131"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1) Polarization by reflection \n 2) Polarization by refraction \n 3) Polarization by double refraction \n 4) Polarization by selective absorption (Dichroism) \n 5)Polarization by scattering.\n "
+        android:id="@+id/textView133"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView132"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Brewster’s Law :"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView134"
+        android:layout_below="@+id/textView133"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          “It states that when a beam of unpolarised light is incident upon a transparent surface at the polarizing angle, then the reflected and refracted beams are perpendicular to each other. “ \n                       µ   =  tan(ip)\n Thus Brewster’s law can also be stated as,\n           ”The tangent of angle of polarization is numerically equal to the refractive index of the medium.”  "
+        android:id="@+id/textView135"
+        android:textColor="#006699"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView134"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="The Law Malus :"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:id="@+id/textView136"
+        android:layout_below="@+id/textView135"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          When a completely plane polarized light beam incident on the analyser, intensity of polarized light is proportional to the square of the cosine of the angle between the planes of polarizer and analyser. "
+        android:id="@+id/textView137"
+        android:textColor="#006699"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView136"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView16"
+        android:layout_below="@+id/textView137"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/malus"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="           I = Intensity of light transmitted by the analyzer.\n          Im = Intensity of light transmitted by polarizer. \n          Θ = Angle between the planes of polarizer and analyser. \nThen, \n                  I = Im Cos2 Θ\n          (i) Em cos Θ parallel to the plane of transmission of analyser \n          (ii) Emsin Θ perpendicular to the plane of analyser. \n          Hence the intensity of light transmitted by analyser is\n                  I = (Em2 Cos2 Θ) \n                  I = Im Cos2 Θ\nHence,      Im = Em2\n "
+        android:id="@+id/textView138"
+        android:textColor="#006699"
+        android:layout_below="@+id/imageView16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView17"
+        android:layout_below="@+id/textView138"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/malus1"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>
+</ScrollView>

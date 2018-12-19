@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="550dp"
+        android:background="@drawable/shield"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView10" />
+
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView9"
+        android:background="@drawable/tag1"
+        android:layout_below="@+id/imageView10"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Product Info. :\n\n          Product :	Easycs©TechHorizon\n          Version :	0.A\n\nAdditional Info. :\n\n          1.This is an application for availing a quick &amp; easy guide for\n          the subject.\n\n          2.The app will provide only the important and main topics.\n\n          3.The contents in the application are just for referential study. "
+        android:id="@+id/textView104"
+        android:textSize="20dp"
+        android:layout_below="@+id/imageView9"
+        android:layout_alignLeft="@+id/imageView9"
+        android:layout_alignStart="@+id/imageView9"
+        android:layout_alignRight="@+id/imageView9"
+        android:layout_alignEnd="@+id/imageView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Mr. Abhijit D. Thorat"
+        android:id="@+id/textView105"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:layout_below="@+id/textView104"
+        android:layout_alignLeft="@+id/imageView10"
+        android:layout_alignStart="@+id/imageView10"
+        android:layout_marginTop="50dp" />
+
+</RelativeLayout>

@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.horizon.abhijit.simphycs.Impo" android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Interference"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:typeface="serif"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView15"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bar"
+            android:layout_marginTop="5dp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Interference:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView1"
+            android:layout_below="@+id/imageView15"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      “When 2 light waves with the same frequency &amp; constant phase difference travels simultaneously through the same region of medium and superimpose with each other, then there is modification in light intensity which is termed as Interference.”\n"
+            android:id="@+id/textView35"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textColor="#006699"
+            android:textSize="18dp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Types: \n1] Constructive:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView36"
+            android:layout_below="@+id/textView35"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      When crest of one wave falls on the crest of other wave &amp;  trough of one wave on the trough of other,then it is constructive. ”\n       Displacement is maximum in this case."
+            android:id="@+id/textView37"
+            android:layout_below="@+id/textView36"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textColor="#006699"
+            android:textSize="18dp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="2] Destructive:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView38"
+            android:layout_below="@+id/textView37"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      Crest of one wave falls on the trough of another wave and vice versa.”\n        Displacement is zero in this case."
+            android:id="@+id/textView39"
+            android:layout_below="@+id/textView38"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textColor="#006699"
+            android:textSize="18dp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Necessary conditions for Interference:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView40"
+            android:layout_below="@+id/textView39"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      1.	Interfering waves should have the same frequency or wavelength.\n      2.	Both the waves should be coherent and having equal amplitude.\n      3.	The waves should travel along the same line.\n      4.	The separation between 2 sources should be small.\n      5.	The source must be narrow."
+            android:id="@+id/textView41"
+            android:layout_below="@+id/textView40"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textColor="#006699"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Interference in thin films of uniform thickness:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView42"
+            android:layout_below="@+id/textView41"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      A film is said to be thin if its thickness is in terms of 6 X 10^-10m."
+            android:id="@+id/textView43"
+            android:textColor="#006699"
+            android:textSize="18dp"
+            android:layout_below="@+id/textView42"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Case 1: In reflected light."
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView44"
+            android:layout_below="@+id/textView43"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:layout_width="325dp"
+            android:layout_height="275dp"
+            android:id="@+id/imageView16"
+            android:background="@drawable/reflection"
+            android:foregroundGravity="center_horizontal"
+            android:layout_below="@+id/textView44"
+            android:layout_alignRight="@+id/textView68"
+            android:layout_alignEnd="@+id/textView68"
+            android:layout_alignLeft="@+id/imageView18"
+            android:layout_alignStart="@+id/imageView18"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Important Equations:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView45"
+            android:layout_below="@+id/imageView16"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      1.	Path difference between rays-	Δ=2µtcosr ± λ/2\n      2.	Condition for brightness-		2µtcosr=(2n+1)λ/2\n      3.	Condition for darkness-		2µtcosr=nλ\n "
+            android:id="@+id/textView46"
+            android:textColor="#006699"
+            android:textSize="18dp"
+            android:layout_below="@+id/textView45"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Important Results:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView47"
+            android:layout_below="@+id/textView46"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      1.	If the film is extremely thin then, path difference is odd multiple of λ/2 Δ=± λ/2\n      2.	If thickness of the film is increased gradually then the maxima &amp; minima occurs alternatively. \n      3.	When monochromatic light incident normal to the film, it will appear dark. \n      4.	If light incident on film parallel then the whole film will appear bright or dark. \n      5.	Colours are not observed in reflected light. \n "
+            android:id="@+id/textView48"
+            android:layout_below="@+id/textView47"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" Case 2: Interference in transmitted light. "
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView49"
+            android:layout_below="@+id/textView48"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      1.	Path diff.			 	                Δ=2µtcosr\n      2.	Condition for darkness,	2µtcosr=(2n±1)λ/2\n      3.	Condition for brightness,	2µtcosr= nλ "
+            android:id="@+id/textView50"
+            android:textColor="#006699"
+            android:textSize="18dp"
+            android:layout_below="@+id/textView49"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" Newton’s ring experiment: "
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView51"
+            android:layout_below="@+id/textView50"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      “When a plan convex lens with its convex side is placed on plane glass plate, an air film of gradually increasing thickness is formed between them. If monochromatic light is incident on this arrangement and film is viewed in reflected light alternate bright and dark bands are observed. These rings are called as Newton’s ring.” \n         These rings are concentric around a point of contact.  "
+            android:id="@+id/textView52"
+            android:layout_below="@+id/textView51"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="325dp"
+            android:layout_height="350dp"
+            android:id="@+id/imageView17"
+            android:layout_below="@+id/textView52"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/newtonring"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Formation of rings: "
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView53"
+            android:layout_below="@+id/imageView17"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      1.	When a ray of monochromatic light Is fall on the glass plate at 450 the glass plate reflects some part of light towards the air film. \n      2.	Some part of incident light is reflected back by the curved surface of lens &amp; part of transmitted light is reflected by plane surface of plate. \n      3.	These 2 reflected rays interfere and produces rings. \n \n      Condition for constructive interference:2t=(2n±1) λ/2\n      Condition for destructive interference:	nλ "
+            android:id="@+id/textView54"
+            android:layout_below="@+id/textView53"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Diameter of nth bright ring :"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView55"
+            android:layout_below="@+id/textView54"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      Diameter of bright rings are proportional to the square root of odd natural numbers,"
+            android:id="@+id/textView56"
+            android:layout_below="@+id/textView55"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dn ∝√(2n±n)"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView57"
+            android:layout_below="@+id/textView56"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      Diameter of bright rings are proportional to the square root of natural numbers,"
+            android:id="@+id/textView58"
+            android:layout_below="@+id/textView57"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:textColor="#006699"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dn ∝ √n"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView59"
+            android:layout_below="@+id/textView58"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Characteristics of Newton’s ring: "
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView60"
+            android:layout_below="@+id/textView59"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      1.	Dark central spot-At the point of contact of lens and the glass plate, the condition for destructive interference is satisfied and thus it forms central dark band. \n      2.	Circular fringes\n      3.	Newton’s rings with light- Alternate bright and dark bands can be obtain by using mono. Light. \n      4.	But If we use a white light then mixed coloured bands around central point and beyond it a continuous illumination can be obtain. "
+            android:id="@+id/textView61"
+            android:layout_below="@+id/textView60"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Introduction of liquid between lens and the glass plate:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView62"
+            android:layout_below="@+id/textView61"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Let refractive index of liquid be µl  , \n        (Dn^2)liq.= 4nRλ/µl 	-------------(a) \n        (Dn^2)air = 4nRλ 	-------------(b) \nFrom a &amp; b\n        (Dn^2)liq/(Dn^2)air = 1/µl		 "
+            android:id="@+id/textView63"
+            android:textColor="#006699"
+            android:textSize="18dp"
+            android:layout_below="@+id/textView62"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="thus (Dn)liq. &lt; (Dn)air"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView64"
+            android:layout_below="@+id/textView63"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      Therefore when a liquid is introduced in experimental setup the diameter of Newton’s ring get reduced. "
+            android:id="@+id/textView65"
+            android:layout_below="@+id/textView64"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:textColor="#006699"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Applications :"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView66"
+            android:layout_below="@+id/textView65"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="          1.Determination of wavelength of Sodium light. \n          2.Determination of refractive of liquid.  "
+            android:id="@+id/textView67"
+            android:textColor="#006699"
+            android:textSize="18dp"
+            android:layout_below="@+id/textView66"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Applications of interference: \n 1.Determination of optical flatness: (Testing of surface finish): "
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView68"
+            android:layout_below="@+id/textView67"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:id="@+id/imageView18"
+            android:layout_below="@+id/textView68"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/surfacefinish"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      1.	After doing arrangements like above if one can see the flat view of fringes\n of equal thickness then we can conclude that the specimen is optically flat.\n      2.	If we see the curved fringes towards the point of contact then the surface will be concave. \n      3.	If fringes curves away from the point of contact then the specimen is convex.  "
+            android:id="@+id/textView69"
+            android:layout_below="@+id/imageView18"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="275dp"
+            android:layout_height="200dp"
+            android:id="@+id/imageView19"
+            android:background="@drawable/concave"
+            android:layout_below="@+id/textView69"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignRight="@+id/textView73"
+            android:layout_alignEnd="@+id/textView73" />
+
+        <ImageView
+            android:layout_width="275dp"
+            android:layout_height="200dp"
+            android:id="@+id/imageView20"
+            android:background="@drawable/convex"
+            android:layout_below="@+id/textView69"
+            android:layout_alignRight="@+id/textView65"
+            android:layout_alignEnd="@+id/textView65"
+            android:layout_toEndOf="@+id/imageView19"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/imageView19" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.Anti reflection coatings and non-reflecting coatings: "
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView70"
+            android:layout_below="@+id/imageView19"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      When light is incident on lenses of optical devices some part of light is reflected so the intensity of transmitted light reduces. \n      As reflection increases the quality of the image becomes poor. Hence to avoid number of reflections the transparent dielectric anti-reflection coatings are used. \n      For this the reflected rays should satisfied the condition of destructive interference as shown in dia.-  "
+            android:id="@+id/textView71"
+            android:layout_below="@+id/textView70"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:id="@+id/imageView21"
+            android:layout_below="@+id/textView71"
+            android:background="@drawable/antirefl"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@+id/textView46"
+            android:layout_alignStart="@+id/textView46"
+            android:layout_alignRight="@+id/imageView18"
+            android:layout_alignEnd="@+id/imageView18" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Interference in wedge shape film: "
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView72"
+            android:layout_below="@+id/imageView21"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      Wedge shape film is a film of varying thickness. \nθ  is wedge angle.\nCondition for constructive interference:"
+            android:id="@+id/textView73"
+            android:layout_below="@+id/textView72"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2µtcos(r+θ)=(2n±1)λ/2"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView74"
+            android:layout_below="@+id/textView73"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Condition for destructive interference: "
+            android:id="@+id/textView75"
+            android:layout_below="@+id/textView74"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:textColor="#006699"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2µtcos(r+θ)= λ/2"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView76"
+            android:layout_below="@+id/textView75"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fringe width-"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:id="@+id/textView77"
+            android:layout_below="@+id/textView76"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="      “The separation between dark and bright fringe is nothing but the fringe width.”\n                      ω=λ/2μθ\n       For air µ is 1,	ω=λ/2θ\n       The angle of incidence and reflections remains constant for each point of the film. \n      So the path difference according to the changes in thickness of the film.
+ "
+            android:id="@+id/textView78"
+            android:layout_below="@+id/textView77"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#006699"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+</ScrollView>

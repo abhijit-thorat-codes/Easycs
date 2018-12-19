@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg12">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.horizon.abhijit.simphycs.Impo" android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-- Important Questions --"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:id="@+id/textViewa"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1) Explain Huygens wave theory of light.\n\n
+2) Explain the principle of superposition. \n\n
+3) What do you mean by interference of light? \n\n
+4) Explain with suitable diagram Young’s experiment. \n\n
+5) Explain wave theory of Young’s experiment. \n\n
+6) Describe analytical treatment for interference. \n\n
+7) Derive the expression for maximum intensity for constructive interference. \n\n
+8) Derive the expression for maximum intensity for destructive interference. \n\n
+9) Explain energy distribution in interference. \n\n
+10)Define coherent beam. \n\n
+11) Give the methods for obtaining coherent beam. \n\n
+12) Explain the method of coherent beam with example. \n\n
+13) Derive the condition of maxima for reflected light in case of thin transparent film of uniform thickness. \n\n
+14) Derive the condition of minima for reflected light in case of thin transparent film of uniform thickness. \n\n
+15) Define fringe width for wedge shaped film, obtain an expression for it. \n\n
+16) Draw an experimental setup for producing Newton’s rings in lab. \n\n
+17) Prove that in Newton’s rings by reflected light the diameter of bright ring are proportional to the square root of the odd natural number. \n\n
+18) In Newton’s ring experiment show that the diameters of darks rings are proportional to square root of natural numbers. \n\n
+"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="serif"
+            android:id="@+id/textView"
+            android:layout_below="@+id/textViewa"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:id="@+id/scroll2"
+    android:background="@drawable/bg12">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.horizon.abhijit.simphycs.Impo3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-- Important Questions --"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:id="@+id/textViewa"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=" 1)	Define: Acoustic, sound &amp; noise.\n\n 2)	Explain reverberation and reverberation time. \n\n 3)	State and explain properties of sound. \n\n 4)	Define: Intensity of sound, timber of sound and echo. \n\n 5)	Define the absorption coefficient and write note on it. \n\n 6)	Give conditions for good acoustic. \n\n 7)	What is Echelon effect? \n\n 8)	Explain following for a good auditorium: \n\n          1. Shape\n\n          2. Adequate loudness\n\n          3. Use of absorbent\n\n          4. Echoes\n\n 9)	Enlist the types of noise and explain them in short. \n\n "
+            android:id="@+id/textView4"
+            android:typeface="sans"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_below="@+id/textViewa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentEnd="false"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</ScrollView>

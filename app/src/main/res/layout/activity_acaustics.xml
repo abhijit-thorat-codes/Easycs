@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll20"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="#ffffff">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.horizon.abhijit.easycs1.Acaustics">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView80"
+        android:text="3.Acoustics of Building"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView23"
+        android:layout_below="@+id/textView80"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bar"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          Sound is produced when the air in contact with the vibrating body is suddenly compressed.\n          Due to the elastic nature of the medium, these compressions are spread away from the source.\n          Hence, the vibrating body sets up waves of compressions and rarefactions in the air.\n          As these waves reach near our ear drums, we feel a sensation of hearing.\n
+Audible waves : \n          Sound waves with frequency in the range of 20Hz to 20MHz.\n
+Infrasonic waves :\n          Sound waves below audible range i.e. below 20Hz.\n
+Ultrasonic waves :\n           Sound waves above audible range i.e. 20 kHz
+"
+        android:id="@+id/textView79"
+        android:layout_alignTop="@+id/imageView23"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#006699" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Properties of Sound :"
+        android:id="@+id/textView83"
+        android:layout_below="@+id/textView79"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1 Velocity of sound\n
+2 Frequency of sound \n
+3 Intensity of sound \n
+4 Intensity level \n
+5 Acoustic pressure\n
+6 Pitch of sound\n
+7 Timbre of sound\n
+8 Echo \n
+9 Reverberation and reverberation time\n
+10 Reflection of sound
+"
+        android:id="@+id/textView82"
+        android:layout_below="@+id/textView83"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#006699" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Sound Intensity :"
+        android:id="@+id/textView272"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView82"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          It is defined by the amount of energy transported by sound waves in unit time across a unit cross-sectional area normal to the direction of wave propagation. \n\n 	Intensity = Energy / ( Area X Time )"
+        android:id="@+id/textView273"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView272"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Absorption Coefficient :"
+        android:id="@+id/textView274"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView273"
+        android:layout_marginTop="20dp"
+        android:layout_alignRight="@+id/textView273"
+        android:layout_alignEnd="@+id/textView273" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          When a sound wave strikes a surface there are three possibilities.\n          (a) Part of energy is absorbed\n          (b) Part of it is transmitted \n          (c) Remaining energy is reflected\n "
+        android:id="@+id/textView275"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView274"
+        android:layout_alignRight="@+id/textView273"
+        android:layout_alignEnd="@+id/textView273"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Sabine&apos;s Formula for Reverberation Time : "
+        android:id="@+id/textView276"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView275"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          1. Reverberation time depends upon reflectivity of sound from various surfaces available inside the hall. \n          2. If the reflection is good, reverberation time of the ball will be longer as sound take more time to die out.\n          3. Reverberation time depends upon volume of the hall. \n\n          4. Reverberation time depends upon coefficient of absorption of various surfaces present in the hall.\n\n          5. An absorption coefficient is found to be increased with increase in frequency, reverberation time decreases with frequency.\nHence,\n                    T ∝V/A\n\nWhere,          V = Volume of hall,\n                      A = Absorption\n "
+        android:id="@+id/textView277"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView276"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Conditions for Good Acoustic : "
+        android:id="@+id/textView278"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView277"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          (a) The initial sound from the source should be of adequate intensity. \n          (b) The sound should spread evenly with proper loudness every where in the hall. \n          (c) The sound of speech or music should be clear and words of musical notes must be distinctly audible to all. \n          (d) All undesired noise must be reduced to the extent that it will not interfere with normal hearing of speech or hearing. \n          (e) Any distortion due to shape and size must be absent. "
+        android:id="@+id/textView279"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView278"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Methods of Design for Good Auditorium :"
+        android:id="@+id/textView280"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView279"
+        android:layout_alignRight="@+id/textView279"
+        android:layout_alignEnd="@+id/textView279"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          (a) Selection of proper site\n          (b) Volume \n          (C) Shape\n          (d) Adequate Loudness\n          (e) Use of absorbents \n          (f) Echoes \n          (g) Reverberation\n          (h) Extraneous noise\n          (i) Resonance \n          (j) Echelon effect\n "
+        android:id="@+id/textView281"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView280"
+        android:layout_alignRight="@+id/textView280"
+        android:layout_alignEnd="@+id/textView280"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="A.	Selection of proper site :"
+        android:id="@+id/textView282"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView281"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          Avoid noisy places like railway track, roads with heavy traffic, airports, industrial vicinity for auditorium."
+        android:id="@+id/textView283"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView282"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="B.	Volume :  "
+        android:id="@+id/textView284"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView283"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          Size of the hall/ auditorium should be such that it remains optimum. \n          Small hall leads to irregular distribution of sound because of formation of standing waves. \n          Too big halls may also create a weaker intensity and larger reverberation time which is a very serious issue.\n "
+        android:id="@+id/textView285"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView284"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="C.  Shape:"
+        android:id="@+id/textView286"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView285"
+        android:layout_alignRight="@+id/textView285"
+        android:layout_alignEnd="@+id/textView285" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          Curved surface produce concentration of sound into particular region and absence of sound in other regions. \n         Hence curved surface must be designed with proper care. \n "
+        android:id="@+id/textView287"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView286"
+        android:layout_alignRight="@+id/textView285"
+        android:layout_alignEnd="@+id/textView285"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="D. Adequate Loudness:"
+        android:id="@+id/textView288"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView287"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          Fitting sound reflectors in the hall. \n          Using a raised platform and raked seating arrangement provide a direct speech of the speaker, which help him to make his speech more intelligible. \n          By amplifying speech with the help of loudspeakers. "
+        android:id="@+id/textView289"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView288"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="E.  Use of absorbents"
+        android:id="@+id/textView290"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView289"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          Once the construction of hall is completed certain errors are found or the hall requires further correction as far as acoustics are concerned. \n          For this use of absorbents is very common."
+        android:id="@+id/textView291"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView290"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="F. Echoes :"
+        android:id="@+id/textView292"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView291"
+        android:layout_alignRight="@+id/textView291"
+        android:layout_alignEnd="@+id/textView291"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          When the interval time between the arrived of direct sound and reflected sound from the same source is more than 1/10th of a second, an impression of a distinct echo is produced, which makes hearing difficult. \n          To eliminate echoes, the surfaces which give rise to them should be covered with suitable absorbent or spoiled so that they cannot reflect regularly. "
+        android:id="@+id/textView293"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView292"
+        android:layout_alignRight="@+id/textView292"
+        android:layout_alignEnd="@+id/textView292"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="G.  Reverberation :"
+        android:id="@+id/textView294"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView293"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          Reverberation time must be maintained in nearly 0.5 seconds for lecture hall, around 1.2 second for music concerts hall and around 2 seconds for cinema halls.  "
+        android:id="@+id/textView295"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView294"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Noise :"
+        android:id="@+id/textView296"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView295"
+        android:layout_alignRight="@+id/textView295"
+        android:layout_alignEnd="@+id/textView295"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="1. Air-borne-noise\n\n 2. Structure borne noise\n\n 3. Inside noise. "
+        android:id="@+id/textView297"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView296"
+        android:layout_alignRight="@+id/textView295"
+        android:layout_alignEnd="@+id/textView295"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="A. Air-borne-noise"
+        android:id="@+id/textView298"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView297"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="The noise which commonly reaches the hall from outside through open windows, doors and ventilators is called air borne noise.\n\nRemedy : \n          1.Air borne noise can be minimized by the following methods. \n          2.By allotting proper places for doors and windows\n          3. By providing arrangements for perfectly shutting doors and windows. \n          4. By using heavy glass in doors, windows and ventilators. \n "
+        android:id="@+id/textView299"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView298"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="B. Structure-borne Noise :"
+        android:id="@+id/textView300"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView299"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="          The noises which are conveyed through the structure of the hall is called structural noise. \n          This type of noises may appear in the hall due to structural vibration. \n\n  Remedy : \n          1.	Breaking the continuity of structure by introducing some layers of acoustical insulators, wherever possible. \n          2. Using double walls with air space between them. \n          3.By using anti-vibration mounts. \n          4. Using soft floor finish like rubber mat, carpet etc. \n          5. Proper insulation must be provided to all mechanical equipment like lift, escalator, fans etc. "
+        android:id="@+id/textView301"
+        android:textColor="#006699"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView300"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="C. Inside Noise :"
+        android:id="@+id/textView302"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView301"
+        android:layout_alignRight="@+id/textView303"
+        android:layout_alignEnd="@+id/textView303"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="&quot;          The noises that are produced inside the hall is known as inside noises.” \n          These noises are generated due to machinery like air conditioners, air coolers, Refrigerators etc. \n\n Remedy : \n          1.	Noise free air conditioner, air coolers are to be used. \n          2.	Any engine, motors inside the hall must be fitted on the floor with a layer of wood or felt between them. \n          3.	The floor must be covered with carpet. \n          4.	Proper sound absorbing materials must be provided to the walls, floors &amp; ceilings of the hall. \n "
+        android:id="@+id/textView303"
+        android:textColor="#006699"
+        android:layout_below="@+id/textView302"
+        android:layout_alignRight="@+id/textView301"
+        android:layout_alignEnd="@+id/textView301"
+        android:layout_marginTop="10dp" />
+
+
+</RelativeLayout>
+</ScrollView>
